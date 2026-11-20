@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Libreria_generate-pdf-java">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../Downloads/Libreria_generate-pdf-java.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../Downloads/Libreria_generate-pdf-java.jar!/" />
+    </SOURCES>
+  </library>
+</component>

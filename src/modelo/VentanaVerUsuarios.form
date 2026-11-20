@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="modelo.VentanaVerUsuarios">
+  <grid id="27dc6" binding="PanelVerUsuario" layout-manager="GridLayoutManager" row-count="16" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="512"/>
+    </constraints>
+    <properties>
+      <foreground color="-262153"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="6960f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Constantia" size="22" style="3"/>
+          <foreground color="-262153"/>
+          <text value="--- Selecciona usuario ---"/>
+        </properties>
+      </component>
+      <hspacer id="bd321">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <vspacer id="6b9ac">
+        <constraints>
+          <grid row="15" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="32c3a" class="javax.swing.JComboBox" binding="ListaSeccionUsuario">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="d9bb0" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Constantia" size="20" style="3"/>
+          <foreground color="-262153"/>
+          <text value="-Usuarios Registrados"/>
+        </properties>
+      </component>
+      <scrollpane id="5222e" binding="ScrollVerUsuario">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children/>
+      </scrollpane>
+      <component id="3e56f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Constantia" size="20" style="3"/>
+          <foreground color="-262153"/>
+          <text value="-Informacion de los usuarios"/>
+        </properties>
+      </component>
+      <component id="4aa47" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Constantia" size="20" style="2"/>
+          <foreground color="-262153"/>
+          <text value="-ID:"/>
+        </properties>
+      </component>
+      <component id="bfaf8" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Constantia" size="20" style="2"/>
+          <foreground color="-262153"/>
+          <text value="Tipo de documento:"/>
+        </properties>
+      </component>
+      <component id="2b9ce" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Constantia" size="20" style="2"/>
+          <foreground color="-262153"/>
+          <text value="Numero de documento:"/>
+        </properties>
+      </component>
+      <component id="f4286" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Constantia" size="20" style="2"/>
+          <foreground color="-262153"/>
+          <text value="Primer Nombre:"/>
+        </properties>
+      </component>
+      <component id="23b6b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Constantia" size="20" style="2"/>
+          <foreground color="-262153"/>
+          <text value="Segundo Nombre:"/>
+        </properties>
+      </component>
+      <component id="23a72" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Constantia" size="20" style="2"/>
+          <foreground color="-262153"/>
+          <text value="Primer Apellido:"/>
+        </properties>
+      </component>
+      <component id="55c99" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Constantia" size="20" style="2"/>
+          <foreground color="-262153"/>
+          <text value="Segundo Apellido"/>
+        </properties>
+      </component>
+      <component id="66c09" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Constantia" size="20" style="2"/>
+          <foreground color="-262153"/>
+          <text value="-Fotografia-"/>
+        </properties>
+      </component>
+      <component id="b10f6" class="javax.swing.JButton" binding="PDFButton" default-binding="true">
+        <constraints>
+          <grid row="15" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Constantia" size="18" style="3"/>
+          <foreground color="-16773415"/>
+          <text value="PDF"/>
+        </properties>
+      </component>
+      <component id="e73ec" class="javax.swing.JButton" binding="eliminarButton" default-binding="true">
+        <constraints>
+          <grid row="14" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Constantia" size="18" style="3"/>
+          <foreground color="-16773415"/>
+          <text value="Eliminar"/>
+        </properties>
+      </component>
+      <component id="ddc73" class="javax.swing.JButton" binding="editarButton" default-binding="true">
+        <constraints>
+          <grid row="13" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Constantia" size="18" style="3"/>
+          <foreground color="-16773415"/>
+          <text value="Editar"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
