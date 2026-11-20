@@ -22,6 +22,16 @@ public class FormMenu {
             ventanaRegistro.setLocationRelativeTo(null);
             ventanaRegistro.setVisible(true);
         });
+        btnConsultar.addActionListener(e -> {
+            FormListado formulario = new FormListado(usuarios);
+
+            JFrame ventanaListado = new JFrame("Listado de usuarios");
+            ventanaListado.setContentPane(formulario.getPanelPrincipal());
+            ventanaListado.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+            ventanaListado.pack();
+            ventanaListado.setLocationRelativeTo(null);
+            ventanaListado.setVisible(true);
+        });
     }
 
     public int obtenerSiguienteId() {
