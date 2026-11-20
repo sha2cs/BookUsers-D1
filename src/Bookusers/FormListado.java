@@ -35,7 +35,8 @@ public class FormListado {
             FormDetalle formulario =
                     new FormDetalle(usuarioSeleccionado);
 
-            JFrame ventana = new JFrame("Detalle del usuario");
+
+            JFrame ventana = new JFrame("BookUsers · Maireth Yalena Casadiego Vega · Detalle");
             ventana.setContentPane(formulario.getPanelPrincipal());
             ventana.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
             ventana.pack();

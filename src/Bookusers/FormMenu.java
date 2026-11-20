@@ -15,7 +15,7 @@ public class FormMenu {
         btnRegistrar.addActionListener(e -> {
             FormRegistro formulario = new FormRegistro(usuarios, this);
 
-            JFrame ventanaRegistro = new JFrame("Registro de usuario");
+            JFrame ventanaRegistro = new JFrame("BookUsers · Maireth Yalena Casadiego Vega · Registro");
             ventanaRegistro.setContentPane(formulario.getPanelPrincipal());
             ventanaRegistro.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
             ventanaRegistro.pack();
@@ -25,7 +25,8 @@ public class FormMenu {
         btnConsultar.addActionListener(e -> {
             FormListado formulario = new FormListado(usuarios);
 
-            JFrame ventanaListado = new JFrame("Listado de usuarios");
+
+            JFrame ventanaListado = new JFrame("BookUsers · Maireth Yalena Casadiego Vega · Listado");
             ventanaListado.setContentPane(formulario.getPanelPrincipal());
             ventanaListado.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
             ventanaListado.pack();
@@ -35,7 +36,7 @@ public class FormMenu {
         btnCreditos.addActionListener(e -> {
             FormCreditos formulario = new FormCreditos();
 
-            JFrame ventanaCreditos = new JFrame("Créditos");
+            JFrame ventanaCreditos = new JFrame("BookUsers · Maireth Yalena Casadiego Vega · Créditos");
             ventanaCreditos.setContentPane(formulario.getPanelPrincipal());
             ventanaCreditos.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
             ventanaCreditos.pack();
@@ -49,7 +50,7 @@ public class FormMenu {
     }
 
     public static void main(String[] args) {
-        JFrame ventana = new JFrame("BookUsers");
+        JFrame ventana = new JFrame("BookUsers · Maireth Yalena Casadiego Vega");
         ventana.setContentPane(new FormMenu().panelPrincipal);
         ventana.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         ventana.setSize(500, 400);
