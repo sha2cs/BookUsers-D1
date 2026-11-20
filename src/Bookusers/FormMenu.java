@@ -32,6 +32,16 @@ public class FormMenu {
             ventanaListado.setLocationRelativeTo(null);
             ventanaListado.setVisible(true);
         });
+        btnCreditos.addActionListener(e -> {
+            FormCreditos formulario = new FormCreditos();
+
+            JFrame ventanaCreditos = new JFrame("Créditos");
+            ventanaCreditos.setContentPane(formulario.getPanelPrincipal());
+            ventanaCreditos.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+            ventanaCreditos.pack();
+            ventanaCreditos.setLocationRelativeTo(null);
+            ventanaCreditos.setVisible(true);
+        });
     }
 
     public int obtenerSiguienteId() {
